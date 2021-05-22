@@ -64,12 +64,16 @@ header ul a:hover{
     width: 400px;
     margin-top: 40px;
 }
-.card{
-    padding: 20px;
+.progress{
+    width: 100px;
+    background-color: red;
+}
+/* .card{
+    padding: 40px;
     border-radius: 40px;
 }
 .card li{
-    color: white;
+    color: black;
     font-size: 1.4rem;
 }
 .card-content p{
@@ -82,9 +86,11 @@ header ul a:hover{
 }
 .card-title{
     font-weight: 500;
-}
-.asignature-info{
-    
+} */
+.info p{
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 400;
 }
 
 /*            footer             */
