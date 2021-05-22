@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header{
+    height: 500px;
+
+}
+header nav{
+    height: 100px;
+    box-shadow: none;
+}
+nav .brand-logo{
+    height: 100px;
+}
+nav .brand-logo img{
+    width: 275px;
+    height: 70px;
+    margin-top: 15px;
+}
+header nav ul{
+    height: 100px;
+}
+header ul a{
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+header ul a:hover{
+    background-color: rgb(109, 103, 103);
+}
+.header-bar{
+    margin-top: 35px;
+    height: 7px;
+    background-color: red;
+}
+.header-main-pic{
+    width: 100%;
+    height: 400px;
+    background-image: url('/images/programacion4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title-page{
+    margin-top: 20px;
+}
+.asignature-title{
+    font-size: 3.8rem;
+}
+.asignature-description{
+    font-size: 1.8rem;
+}
+.description-pic{
+    width: 400px;
+    margin-top: 40px;
+}
+.card{
+    padding: 20px;
+    border-radius: 40px;
+}
+.card li{
+    color: white;
+    font-size: 1.4rem;
+}
+.card-content p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.card-content img{
+    margin-top: 35px;
+}
+.card-title{
+    font-weight: 500;
+}
+.asignature-info{
+    
+}
+
+/*            footer             */
+
+.footer-copyright p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.footer-info{
+    font-size: 1.4rem;
+}
+.footer-list a{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.footer-list li{
+    margin-top: 10px;
+}
+.footer-list a:hover{
+    color: black;
+}
+.footer-list span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 100%;
+    margin-left: 5px;
+}
+.twitter{
+    background-image: url('/images/twitter.png');
+}
+.instagram{
+    background-image: url('/images/instagram.png');
+}
+.github{
+    background-image: url('/images/github.png');
+}
+
+
+
+/*       presentacion.html                  */
+
+
+/*        main        */
+
+.social-media a{
+    padding: 25px;
+}
+.contact-form{
+    margin-top: 20px;
+}
+.card-panel p{
+    font-size: 2rem;
+}
+.card-panel label{
+    font-size: 1.8rem;
+}
+.contact-message{
+    
+}

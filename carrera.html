@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrera</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <header>
-        <section class="header">
-            <div>
-                <figure>
-                    <img src="./images/logo-iujo2.png" alt="Logo del Yujo">
-                </figure>
-            </div>
-            <nav>
-                <ul>
-                    <a href="/index.html"><li>Home</li></a>
-                    <a href="#"><li>Informacion de la carrera</li></a>
-                    <a href="/src/presentacion.html"><li>Acerca de</li></a>
+        <div class="navbar-fixed">
+            <nav class="grey darken-4">
+                <a href="#" class="brand-logo">
+                    <img src="/images/logo-iujo2.png" alt="Logo del Yujo" class="responsive-img">
+                </a>
+                <ul class="right valign-wrapper">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Información de la carrera</a></li>
+                    <li><a href="/presentacion.html">Acerca del creador</a></li>
                 </ul>
             </nav>
-        </section>
+         </div>
+         <section class="header-bar"></section>
+        <section class="header-main-pic z-depth-4 section"></section>
+        
     </header>
     <main>
         <section class="main-content">
@@ -71,7 +77,27 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="page-footer red darken-2">
+        <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h4 class="white-text">Footer Content</h4>
+                <p class="grey-text text-lighten-4 footer-info">Esta página encontraras todo la información sobre la asignatura de Algoritmo y Programacón, contenidos, objetivos, capacidades adquiridas, entre otras cosas. Además de un formularion para contactar al desarrollador del sitio web.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h4 class="white-text">Redes</h4>
+                <ul class="footer-list">
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Twitter <span class="twitter"></span></a></li>
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Instagram <span class="instagram"></span></a></li>
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Github<span class="github"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright red darken-4">
+            <p>Todos los derechos reservados © 2021-2023 - Desarrollado por Daniel.inc</p>
+          </div>
+    </footer>
 </body>
 </html>
 

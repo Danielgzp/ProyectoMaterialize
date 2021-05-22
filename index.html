@@ -5,47 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <heade>
-        <section class="header">
-            <div>
-                <figure>
-                    <img src="./src/images/logo-iujo2.png" alt="Logo del Yujo">
-                </figure>
-            </div>
-            <nav>
-                <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="/src/carrera.html"><li>Informacion de la carrera</li></a>
-                    <a href="/src/presentacion.html"><li>Acerca de</li></a>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="grey darken-4">
+                <a href="#" class="brand-logo">
+                    <img src="/images/logo-iujo2.png" alt="Logo del Yujo" class="responsive-img">
+                </a>
+                <ul class="right valign-wrapper">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/carrera.html">Información de la carrera</a></li>
+                    <li><a href="/presentacion.html">Acerca del creador</a></li>
                 </ul>
             </nav>
-        </section>
+         </div>
+         <section class="header-bar"></section>
+        <section class="header-main-pic z-depth-4 section"></section>
     </header>
-    <main>
-        <section class="main-content">
-            <div class="main-div">
-                <h2>Algoritmo y Programacion I</h2>
-                <div class="description">
-                    <p>En esta asignatura se tratan los siguientes tópicos: Introducción a la Esctructura del computador. Lenguajes de programación. Nociones de programas.Tipos de datos básicos. Algoritmos sobre tipos primitivos de datos. Estructuras de datos: listas y n-uplas. Entrada y salida. Tipos estructurados : arreglos y registros
-                    </p>
+    <main class="container">
+        <section class="section title-page">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="asignature-title">Algoritmo y Programación I</h2>
+                    </div>
                 </div>
-                <div class="proposit">
-                    <p> Los objetivos principales de esta asignatura es comprender los fundamentos básicos de la arquitectura von
-                        Neumann, Comprender las nociones básicas de algoritmo y tipo de
-                        datos, conocer técnicas básicas para el desarrollo de algoritmos,
-                        Desarrollar algoritmos sencillos, en los cuales haga uso de
-                        estructuras de datos básicas, de demostrar su validez y de
-                        demostrarlos en algún lenguaje de programación de alto nivel.
-                        Conocer las nociones básicas del análisis de algoritmos. Conocer los
-                        rudimentos de la noción de tipo abstracto de datos, así como también,
-                        su importancia en el desarrollo de algoritmos.</p>
+        </section>
+        <section class="section">
+                <div class="row">
+                    <div class="col m8 ">
+                        <p class="asignature-description">En esta asignatura se tratan los siguientes tópicos: Introducción a la Esctructura del computador. Lenguajes de programación. Nociones de programas.Tipos de datos básicos. Algoritmos sobre tipos primitivos de datos. Estructuras de datos: listas y n-uplas. Entrada y salida. Tipos estructurados : arreglos y registros. Los objetivos principales de esta asignatura es comprender los fundamentos básicos de la arquitectura von Neumann, Comprender las nociones básicas de algoritmo y tipo de datos, conocer técnicas básicas para el desarrollo de algoritmos, desarrollar algoritmos sencillos, en los cuales haga uso de  estructuras de datos básicas, de demostrar su validez y de demostrarlos en algún lenguaje de programación de alto nivel. Conocer las nociones básicas del análisis de algoritmos. Conocer los rudimentos de la noción de tipo abstracto de datos, así como también, su importancia en el desarrollo de algoritmos</p>
+                        <img src="/images/programacion3.jpg" alt="" class="responsive-img description-pic">
+                    </div>
+                    <div class="col m4">
+                        <div class="card red darken-4 z-depth-4">
+                            <div class="card-content white-text">
+                              <span class="card-title">Programación</span>
+                              <p>En el ámbito de la informática, la programación refiere a la acción de crear programas o aplicaciones a través del desarrollo de un código fuente, que se basa en el conjunto de instrucciones que sigue el ordenador para ejecutar un programa. La programación es lo que permite que un ordenador funcione y realice las tareas que el usuario solicita.
+                            <img src="/images/programacion5.jpg" alt="" class="responsive-img">
+                                  
+                            </p>
+                            </div>
+                          </div>
+                    </div>
                 </div>
-                <div class="contenidos">
-                    <h2>Contenidos</h2>
+        </section>
+        <section class="section asignature-info">
+            <div class="section">
+                <h2>Contenidos</h2>
+                <div class="contenidos card z-depth-4">
                     <ol>
-                        <li><b>Diseño de Programas y Algoritmos:  </b> <br><br>
+                        <li class="collection-item"><b>Diseño de Programas y Algoritmos:  </b> <br><br>
                             <span>• Concepto de algoritmo. Análisis del problema, Definición de algoritmo, Diseño de
                                 algoritmos, Verificación de algoritmos, Herramientas para la representación de
                                 algoritmos, Diagramas de flujo y Pseudocódigo</span>
@@ -104,14 +120,44 @@
                         </li>
                     </ul>
                 </div>
-                <div class="info">
-                    <p>En informática, un algoritmo es una secuencia de instrucciones secuenciales, gracias al cual pueden llevarse a cabo ciertos procesos y darse respuesta a determinadas necesidades o decisiones. Se trata de conjuntos ordenados y finitos de pasos, que nos permiten resolver un problema o tomar una decisión. Los algoritmos no tienen que ver con los lenguajes de programación, dado que un mismo algoritmo o diagrama de flujo puede representarse en diversos lenguajes de programación, es decir, se trata de un ordenamiento previo a la programación. Visto así, un programa no es otra cosa que una serie compleja de algoritmos ordenados y codificados mediante un lenguaje de programación para su posterior ejecución en un computador.
-                    </p>
+            </div>
+            <div class="col s12 m7">
+                <h2 class="header">Más sobre la asignatura</h2>
+                <div class="card horizontal z-depth-4">
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>En informática, un algoritmo es una secuencia de instrucciones secuenciales, gracias al cual pueden llevarse a cabo ciertos procesos y darse respuesta a determinadas necesidades o decisiones. Se trata de conjuntos ordenados y finitos de pasos, que nos permiten resolver un problema o tomar una decisión. Los algoritmos no tienen que ver con los lenguajes de programación, dado que un mismo algoritmo o diagrama de flujo puede representarse en diversos lenguajes de programación, es decir, se trata de un ordenamiento previo a la programación. Visto así, un programa no es otra cosa que una serie compleja de algoritmos ordenados y codificados mediante un lenguaje de programación para su posterior ejecución en un computador.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="/images/algoritmo.png">
+                      </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="page-footer red darken-2">
+        <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h4 class="white-text">Footer Content</h4>
+                <p class="grey-text text-lighten-4 footer-info">Esta página encontraras todo la información sobre la asignatura de Algoritmo y Programacón, contenidos, objetivos, capacidades adquiridas, entre otras cosas. Además de un formularion para contactar al desarrollador del sitio web.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h4 class="white-text">Redes</h4>
+                <ul class="footer-list">
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Twitter <span class="twitter"></span></a></li>
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Instagram <span class="instagram"></span></a></li>
+                  <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!">Github<span class="github"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright red darken-4">
+            <p>Todos los derechos reservados © 2021-2023 - Desarrollado por Daniel.inc</p>
+          </div>
+    </footer>
 </body>
 </html>
 
