@@ -10,6 +10,7 @@ body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+     
 }
 header{
     height: 500px;
@@ -68,25 +69,38 @@ header ul a:hover{
     width: 100px;
     background-color: red;
 }
-/* .card{
+.panel{
+    border-radius: 20px;
+}
+.panel h2{
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.panel p{
+    font-size: 1.3rem;
+}
+.panel img{
+    margin-top: 20px;
+}
+.contenidos{
     padding: 40px;
     border-radius: 40px;
 }
-.card li{
+.contenidos li{
     color: black;
     font-size: 1.4rem;
 }
-.card-content p{
+.contenidos-content p{
     font-size: 1.3rem;
     letter-spacing: 1px;
     font-weight: 100;
 }
-.card-content img{
+.contenidos-content img{
     margin-top: 35px;
 }
-.card-title{
+.contenidos-title{
     font-weight: 500;
-} */
+} 
 .info p{
     font-size: 1.6rem;
     color: black;
@@ -94,7 +108,13 @@ header ul a:hover{
 }
 
 /*            footer             */
-
+footer{
+    margin-top: 50px;
+    background: linear-gradient(to right, rgb(15, 15, 15), red);
+}
+.footer-copyright{
+    background: linear-gradient(to right, rgb(26, 25, 25), rgb(0, 0, 0)); 
+}
 .footer-copyright p{
     width: 100%;
     text-align: center;
@@ -136,20 +156,75 @@ header ul a:hover{
 /*       presentacion.html                  */
 
 
-/*        main        */
-
+.social-donations{
+    margin-top: 40px;
+}
 .social-media a{
     padding: 25px;
+}
+.social-media h2{
+    margin-bottom: 40px;
 }
 .contact-form{
     margin-top: 20px;
 }
-.card-panel p{
-    font-size: 2rem;
+.contact-form label{
+    font-size: 1.4rem;
 }
-.card-panel label{
+
+.form-text{
     font-size: 1.8rem;
 }
-.contact-message{
-    
+.form-button{
+    background-color: red;
 }
+.programer-info li{
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+}
+.programer-info label{
+    color: red;
+    font-size: 2rem;
+}
+.programer-pic img{
+    height: 375px;
+    width: 300px;
+}
+.programer-content{
+    border-radius: 40px;
+}
+
+
+/*          carrera.html            */   
+
+
+.profesional-profile{
+    font-size: 1.8rem;
+}
+#aptitudes-title{
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 500;
+}
+.div-card-reveal p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.card-image img{
+    width: 175px;
+    height: 150px;
+}
+.div-egreso{
+    background: linear-gradient(to right, red, rgb(14, 13, 13));
+    border-radius: 40px;
+}
+.div-egreso p{
+    padding-top: 15px;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+
+
